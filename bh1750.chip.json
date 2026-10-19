@@ -1,0 +1,23 @@
+{
+  "name": "BH1750",
+  "author": "Tugas 2 IoT PLTS",
+  "pins": ["VCC", "GND", "ADDR", "SCL", "SDA", ""],
+  "controls": [
+    {
+      "id": "lux",
+      "label": "Intensitas cahaya (lux)",
+      "type": "range",
+      "min": 0,
+      "max": 65535,
+      "step": 1
+    },
+    {
+      "id": "scenario",
+      "label": "Mode skenario (0 = manual, 1 = otomatis)",
+      "type": "range",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    }
+  ]
+}

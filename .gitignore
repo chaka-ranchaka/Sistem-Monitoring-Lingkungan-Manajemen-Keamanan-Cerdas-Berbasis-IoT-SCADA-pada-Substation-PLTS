@@ -1,0 +1,7 @@
+# Hasil kompilasi: hanya dua file yang dibaca wokwi.toml yang disimpan
+PLTS/build/*
+!PLTS/build/PLTS.ino.merged.bin
+!PLTS/build/PLTS.ino.elf
+
+# Pengaturan editor lokal (berisi path komputer pribadi)
+.vscode/

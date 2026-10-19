@@ -1,0 +1,23 @@
+{
+  "name": "PIR HC-SR501",
+  "author": "Tugas 2 IoT PLTS",
+  "pins": ["OUT", "", "", "GND", "", "VCC"],
+  "controls": [
+    {
+      "id": "motion",
+      "label": "Gerakan (0 = tidak, 1 = ada)",
+      "type": "range",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    },
+    {
+      "id": "scenario",
+      "label": "Mode skenario (0 = manual, 1 = otomatis)",
+      "type": "range",
+      "min": 0,
+      "max": 1,
+      "step": 1
+    }
+  ]
+}

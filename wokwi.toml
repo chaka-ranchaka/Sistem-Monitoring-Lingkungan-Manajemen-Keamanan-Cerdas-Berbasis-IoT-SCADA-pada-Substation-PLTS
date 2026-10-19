@@ -1,0 +1,25 @@
+# Konfigurasi Wokwi for VS Code. Buka folder 04_Wokwi sebagai workspace di VS Code.
+[wokwi]
+version = 1
+firmware = 'PLTS/build/PLTS.ino.merged.bin'
+elf = 'PLTS/build/PLTS.ino.elf'
+
+[[chip]]
+name = 'lm35'
+binary = 'lm35.chip.wasm'
+
+[[chip]]
+name = 'bh1750'
+binary = 'bh1750.chip.wasm'
+
+[[chip]]
+name = 'sct013'
+binary = 'sct013.chip.wasm'
+
+[[chip]]
+name = 'reservoir'
+binary = 'reservoir.chip.wasm'
+
+[[chip]]
+name = 'pir'
+binary = 'pir.chip.wasm'
