@@ -288,9 +288,3 @@ Ringkasan pengujian pada simulasi Wokwi (12 Oktober 2026):
 - SCT-013-000 hanya mengukur arus AC, dan daya dihitung dengan asumsi tegangan 220 V serta faktor daya 0,9.
 - BH1750 mengukur iluminansi (lux), bukan iradiansi matahari (W/m²), sehingga hanya dipakai sebagai proksi kondisi penyinaran.
 - Waktu respon dipengaruhi koneksi internet ke broker publik dan kecepatan simulator yang lebih lambat dari waktu nyata.
-
-## Penulis
-
-**Muhammad Naufal Al Ghazali** (NIM 2300118)
-Teknik Elektro, Fakultas Pendidikan Teknologi dan Industri, Universitas Pendidikan Indonesia.
-Dosen pengampu: Agus Heri Setya Budi, S.T., M.T.
